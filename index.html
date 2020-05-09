@@ -78,14 +78,6 @@
             text-align: center;
         }
 
-        .mb-4 {
-            line-height: 135%;
-            color: #191a1d;
-            font-size: 50px;
-            font-family: "Rubik", "Arial", sans-serif;
-            font-weight: 300;
-        }
-
         .list-inline-item {
             margin-right: 0.5rem;
             color: #6c757d;
@@ -98,7 +90,6 @@
         .card {
             font-size: 16px;
             width: 100%;
-            padding: 16px;
             display: flex;
             flex-direction: column;
             border: none;
@@ -167,16 +158,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
 
@@ -189,12 +180,12 @@
             <div class="container d-flex flex-column" style="min-height: 105vh;">
                 <div class="row my-auto">
                     <div class="col-lg-5 col-md-8 col-sm-12">
-                        <h1 class="display-2 font-weight-normal mb-5"
-                            style="font-family: 'Montserrat', sans-serif; color: white;">Hi, I'm Joohyun, Data Scientist
+                        <h1 class="display-2 font-weight-normal mb-5 displaytitle"
+                            >Hi, I'm Joohyun, Data Scientist
                         </h1>
-                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">My
-                            projects</a>
-                        <i class="fa fa-angle-right ml-2"></i>
+                        <!-- <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">My
+                            projects</a> -->
+                       
                         </a>
 
                     </div>
@@ -206,7 +197,7 @@
 
     <main>
 
-        <div class="row row-cols-1 row-cols-md-2 cardm">
+        <div class="row row-cols-1 row-cols-md-2 cardm" id="skills">
             <div class="col mb-4">
 
                 <div class="card">
@@ -228,7 +219,7 @@
             <div class="card">
                 <a href="#" alt='Python' class="no-link">
                     <div class="card-title-wraper">
-                        <img src="/ICONS/Python.png" class="card-img-top" alt="Python">
+                        <img src="/ICONS/python.png" class="card-img-top" alt="Python">
                         <h5 class="card-title">Python</h5>
                     </div>
                     <div class="card-body">
@@ -277,7 +268,7 @@
 
 
 
-        <div class="aboutme">
+        <div class="aboutme" id="about">
             <div class="container py-5">
                 <div class="row text-center">
                     <div class="col-lg-10 col-md-12 col-sm-12 mx-auto">
@@ -315,7 +306,7 @@
             </p>
         </div>
 
-        <div class="quote">
+        <div class="quote mt-4">
             
             <p><i style="font-size: 22px;">Joohyun is not only great for analysis and development, <br>she is a problem
                     solver who always delivers an exceptional quality of work. <br>Highly recommended.</i></p>
@@ -330,7 +321,7 @@
             </p>
         </div>
         
-        <div class="pt-5 mt-5">
+        <div class="pt-5 mt-5" id='contact'>
             <div class="container py-5">
                 <div class="row text-center">
                     <div class="col-lg-10 col-md-12 col-sm-12 mx-auto">

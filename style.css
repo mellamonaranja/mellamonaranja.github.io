@@ -109,3 +109,14 @@ footer{
     text-shadow: 0 0 15px rgba(243, 3, 183, 0.952);
   }
 
+  .displaytitle{
+    font-family: 'Montserrat', sans-serif; color: white;
+
+  }
+
+  @media (min-width: 576px) { 
+      .displaytitle {
+          font-size: 4rem;
+      }
+   }
+
