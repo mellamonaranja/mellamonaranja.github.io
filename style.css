@@ -16,8 +16,8 @@ header, nav{
 }
 
 main{
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px;
+    padding: 20px; */
 }
 
 footer{
@@ -109,7 +109,7 @@ footer{
   }
 
   .displaytitle{
-    font-family: 'Montserrat', sans-serif; color: white;
+    font-family: 'Montserrat', sans-serif; color:rgb(231, 111, 12);
 
   }
 
@@ -123,7 +123,7 @@ footer{
 
 
    .navbar-light .navbar-brand.headfontcolor {
-    color: rgb(16, 68, 241);
+    color: orange;
 }
 
 .backgroundcolor {
@@ -133,7 +133,7 @@ footer{
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(16, 68, 241);
+    color:orange;
 }
 
 .card-img-top {
@@ -156,7 +156,7 @@ footer{
 
 
 }
-}
+
 
 .card-text {
     color: rgb(32, 33, 36);
@@ -201,11 +201,21 @@ footer{
     margin: 0px;
 }
 
-.aboutme {
-    margin-top: 0px;
+.section {
+  margin: 20px;
+  padding: 20px;
 }
 
-
+.aboutme {
+    margin-top: 0px;
+    background-color: rgb(254, 251, 234);
+}
+.profilepic{
+  height: auto !important;
+}
+.title_margin {
+  padding-top: 3rem !important;
+}
 .quote {
     text-align: center;
 
